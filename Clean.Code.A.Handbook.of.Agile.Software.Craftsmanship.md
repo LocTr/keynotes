@@ -77,3 +77,11 @@ Should be a noun. Should not have ambiguous word like `Manager`, `Data`, etc.
 
 **Dont Add Gratuitous Context:** dont overdo the previous point!
 
+## 3. Function
+Function should show it *intent*, and readable by human, of course.
+
+**Small:** Function should be small, you know that
+
+**Blocks and Indenting:** If your code is nested, maybe you should split it to functions. More readable, and each block have nice descriptive name.
+
+**Do one thing:** if we can extract another function from it with a name that is not a restatement of it implementation
